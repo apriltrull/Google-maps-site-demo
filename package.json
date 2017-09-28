@@ -1,5 +1,5 @@
 {
-  "name": "google-maps-site-demo",
+  "name": "google-demo",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,13 @@
     "webpack-dev-server": "^2.7.1"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apriltrull/Google-maps-site-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apriltrull/Google-maps-site-demo/issues"
+  },
+  "homepage": "https://github.com/apriltrull/Google-maps-site-demo#readme",
   "description": ""
 }

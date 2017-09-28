@@ -20,20 +20,6 @@ module.exports = {
    resolve: {
        extensions: ['*', '.js', '.json']
      },
-  //    module: {
-  //      loaders: [
-  //        {
-  //          test: /\.js$/,
-  //          loader: 'babel',
-  //          exclude: /node_modules/,
-  //          query: {
-  //            cacheDirectory: true,
-  //            presets: ['react', 'es2015']
-  //          }
-  //        }
-  //      ]
-  //    }
-  //  }
 
 
   module: {
@@ -48,24 +34,3 @@ module.exports = {
   }]
 }
 }
-
-    // resolve: {
-    //     modules: ['node_modules', 'src'],
-    //     extensions: ['*', '.js', '.json']
-    // },
-    // module: {
-    //     rules: [
-    //         {
-    //             test: /\.js$/,
-    //             loader: 'babel-loader',
-    //             options: {
-    //               presets:['es2015', 'react']
-    //             }
-    //         }
-    //
-    //       ]
-    //
-    // },
-
-//     devtool: 'source-map'
-// };
