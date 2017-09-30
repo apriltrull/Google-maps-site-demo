@@ -6074,10 +6074,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 const app = __WEBPACK_IMPORTED_MODULE_0_express___default()();
-app.use(__WEBPACK_IMPORTED_MODULE_0_express___default.a.static('src/public/js'));
+app.use(__WEBPACK_IMPORTED_MODULE_0_express___default.a.static('src/public'));
 
 app.get('*', (req, res) => {
-  res.sendFile(__WEBPACK_IMPORTED_MODULE_1_path___default.a.resolve('src/public/index.html'));
+  res.sendFile(__WEBPACK_IMPORTED_MODULE_1_path___default.a.resolve('index.html'));
 });
 
 app.listen(process.env.PORT || 3001, () => console.log("Listening on port 3001"));
